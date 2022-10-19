@@ -11,8 +11,8 @@ public class MainMenuScript : MonoBehaviour
         Application.Quit();
         
     }
-    public void StartLevel(string Main_Menu)
+    public void LoadLevel(string Main_Scene)
     {
-        SceneManager.LoadScene(Main_Menu);
+        SceneManager.LoadScene(Main_Scene);
     }
 }
