@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
         //Health
-    public static int maxHealth = 5;
+    public static int maxHealth = 3;
     static int currentHealth = 5;
 
     public HealthBar healthBar;
