@@ -451,8 +451,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48.999973, y: 122}
-  m_SizeDelta: {x: 1417.5012, y: 491.8571}
+  m_AnchoredPosition: {x: -0.000026703, y: 0}
+  m_SizeDelta: {x: 1415, y: 491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1292959452
 MonoBehaviour:
@@ -474,9 +474,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hello, Hero! Weclome to a new journey. You objective is to beat all of
+  m_text: 'Hello, Hero! Weclome to a new journey. You objective is to beat all of
     you enemies before they lower your health bar to zero! Get through theses dungeons
-    the best you can OR DIE!\n\n                  MWHAHAHA!\n"
+    the best you can OR DIE!  MWHAHAHA!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -510,7 +512,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 33
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -590,7 +592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44, y: -308}
+  m_AnchoredPosition: {x: 0, y: -358}
   m_SizeDelta: {x: 229.0376, y: 107.3032}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493551948
