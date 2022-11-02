@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menu_Folder/MainMenu.unity
     guid: c715393d3cb177e41a61aaded81ef2a5
   - enabled: 1
-    path: Assets/Scenes/Main_Scene.unity
+    path: Assets/Scenes/Menu_Folder/Main_Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/GameOverMenu.unity
+    path: Assets/Scenes/Menu_Folder/GameOverMenu.unity
     guid: 9e02919ff872f7940bf2e98b2bde195f
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
@@ -23,4 +23,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: 4e716cbf9165c7a4bba34abedd2eadfc
+  - enabled: 1
+    path: Assets/Scenes/Win_Scenes/Coward_Win.unity
+    guid: 4ca7672af5243e84b9e49438b03f14fc
+  - enabled: 1
+    path: Assets/Scenes/Scenario_1/Level_1_Scenario_1.unity
+    guid: ebd3b629182c79946bc2e2a81da65a78
+  - enabled: 1
+    path: Assets/Scenes/Scenario_2/Level_1_Scenario_2.unity
+    guid: c7df70076c5d50845a463e85a203a0cc
+  - enabled: 1
+    path: Assets/Scenes/Scenario_3/Level_1_Scenario_3.unity
+    guid: 17c700000350ab34bba9e9ee45a5c4ce
+  - enabled: 1
+    path: Assets/Scenes/Scenario_1/Level_1_Scenario_1_A.unity
+    guid: 6e70891615995bf449d1557aa683c820
+  - enabled: 1
+    path: Assets/Scenes/Scenario_1/Level_1_Scenario_1_B.unity
+    guid: b8c1f6f3b0164ec4e91c104b942d97c2
+  - enabled: 1
+    path: Assets/Scenes/Scenario_2/Level_1_Scenario_2_A.unity
+    guid: 4e4abb6a5378b4444a456ab61471e7c6
+  - enabled: 1
+    path: Assets/Scenes/Scenario_2/Level_1_Scenario_2_B.unity
+    guid: b8665401760e9fb43ade43f2358aa10c
+  - enabled: 1
+    path: Assets/Scenes/Scenario_3/Level_1_Scenario_3_A.unity
+    guid: d45341c130efb61438944d97b8baa09a
+  - enabled: 1
+    path: Assets/Scenes/Scenario_3/Level_1_Scenario_3_B.unity
+    guid: 4eccdd49c72b31e4ea21c31eea7cd162
+  - enabled: 1
+    path: Assets/Scenes/Win_Scenes/Win_Scene.unity
+    guid: 865a7c91396a4364dac36c476edcd8b8
   m_configObjects: {}
