@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Player_Mana : MonoBehaviour
 {
     //Mana
-    public int maxMana = 5;
-    public int currentMana;
-
+    public static int maxMana = 5;
+    public static int currentMana;
+    public string endScene;
     public ManaBar manaBar;
     void Start()
     {
@@ -22,6 +23,10 @@ public class Player_Mana : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             CastSpell(1);
+        }
+        if (currentMana <= 0)
+        {
+            SceneManager.LoadScene(endScene);
         }
     }
     void CastSpell(int ManaUse)

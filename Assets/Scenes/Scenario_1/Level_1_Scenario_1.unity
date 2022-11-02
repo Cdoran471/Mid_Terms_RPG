@@ -287,6 +287,18 @@ MonoBehaviour:
           m_StringArgument: Level_1_Scenario_1_A
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5995766768024059257}
+        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &267360921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,6 +618,7 @@ GameObject:
   - component: {fileID: 1348675145}
   - component: {fileID: 1348675144}
   - component: {fileID: 1348675143}
+  - component: {fileID: 1348675147}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -691,6 +704,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1348675147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348675142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb09bd01578d234cb968295cf37d6ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  endScene: 
 --- !u!1 &1354121559
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +749,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5995766767539294891}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1669,8 +1696,8 @@ RectTransform:
   - {fileID: 3510656027941836821}
   - {fileID: 5995766768837615836}
   - {fileID: 5995766768190345256}
-  - {fileID: 5995766768024059262}
   - {fileID: 1354121560}
+  - {fileID: 5995766768024059262}
   - {fileID: 267360919}
   - {fileID: 643088448}
   m_Father: {fileID: 0}
@@ -1711,8 +1738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f839e3768716f4baa819a434608001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMana: 5
-  currentMana: 5
+  endScene: GameOverMenu
   manaBar: {fileID: 5995766768190345262}
 --- !u!4 &5995766768024059262
 Transform:
@@ -1727,7 +1753,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5995766767539294891}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5995766768024059263
 MonoBehaviour:
@@ -1741,9 +1767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb09bd01578d234cb968295cf37d6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
-  currentHealth: 3
   healthBar: {fileID: 5995766768837615810}
+  endScene: GameOverMenu
 --- !u!224 &5995766768190345256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1949,6 +1974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 5995766768837615837}
+  Damage: 1
 --- !u!224 &5995766768837615836
 RectTransform:
   m_ObjectHideFlags: 0

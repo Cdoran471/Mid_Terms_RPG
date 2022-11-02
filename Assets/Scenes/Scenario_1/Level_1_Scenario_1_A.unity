@@ -1799,6 +1799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 6973146531823322637}
+  Damage: 1
 --- !u!1 &6973146531836726108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,8 +2022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f839e3768716f4baa819a434608001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMana: 5
-  currentMana: 4
+  endScene: GameOverMenu
   manaBar: {fileID: 6973146532269274878}
 --- !u!4 &6973146532636892078
 Transform:
@@ -2051,6 +2051,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb09bd01578d234cb968295cf37d6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
-  currentHealth: 2
   healthBar: {fileID: 6973146531823322642}
+  endScene: GameOverMenu

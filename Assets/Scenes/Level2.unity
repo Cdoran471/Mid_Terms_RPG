@@ -424,8 +424,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190256
+  m_fontColor: {r: 0.6886792, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1448,8 +1448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f839e3768716f4baa819a434608001, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMana: 5
-  currentMana: 5
+  endScene: 
   manaBar: {fileID: 3888770440806004951}
 --- !u!114 &3888770441245775238
 MonoBehaviour:
@@ -1463,9 +1462,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb09bd01578d234cb968295cf37d6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
-  currentHealth: 3
   healthBar: {fileID: 3888770441522464827}
+  endScene: 
 --- !u!4 &3888770441245775239
 Transform:
   m_ObjectHideFlags: 0
@@ -1673,6 +1671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 3888770441522464804}
+  Damage: 1
 --- !u!224 &8717708108759168666
 RectTransform:
   m_ObjectHideFlags: 0
